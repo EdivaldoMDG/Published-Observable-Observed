@@ -13,6 +13,8 @@
 		FBC7171925F78DB2001D89BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC7171825F78DB2001D89BE /* Preview Assets.xcassets */; };
 		FBC7172425F78DB2001D89BE /* Teste_Observable_Observed_PublishedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7172325F78DB2001D89BE /* Teste_Observable_Observed_PublishedTests.swift */; };
 		FBC7172F25F78DB2001D89BE /* Teste_Observable_Observed_PublishedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7172E25F78DB2001D89BE /* Teste_Observable_Observed_PublishedUITests.swift */; };
+		FBC7174125F78F88001D89BE /* AddTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7174025F78F88001D89BE /* AddTextField.swift */; };
+		FBC7174A25F792F6001D89BE /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC7174925F792F6001D89BE /* TodoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		FBC7172A25F78DB2001D89BE /* Teste Observable Observed PublishedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste Observable Observed PublishedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC7172E25F78DB2001D89BE /* Teste_Observable_Observed_PublishedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Observable_Observed_PublishedUITests.swift; sourceTree = "<group>"; };
 		FBC7173025F78DB2001D89BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC7174025F78F88001D89BE /* AddTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextField.swift; sourceTree = "<group>"; };
+		FBC7174925F792F6001D89BE /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		FBC7171025F78DAD001D89BE /* Teste Observable Observed Published */ = {
 			isa = PBXGroup;
 			children = (
+				FBC7174825F79205001D89BE /* ViewModel */,
+				FBC7173F25F78F46001D89BE /* Views */,
 				FBC7171125F78DAD001D89BE /* Teste_Observable_Observed_PublishedApp.swift */,
 				FBC7171325F78DAD001D89BE /* ContentView.swift */,
 				FBC7171525F78DB2001D89BE /* Assets.xcassets */,
@@ -128,6 +134,22 @@
 				FBC7173025F78DB2001D89BE /* Info.plist */,
 			);
 			path = "Teste Observable Observed PublishedUITests";
+			sourceTree = "<group>";
+		};
+		FBC7173F25F78F46001D89BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7174025F78F88001D89BE /* AddTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBC7174825F79205001D89BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7174925F792F6001D89BE /* TodoListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC7174A25F792F6001D89BE /* TodoListViewModel.swift in Sources */,
 				FBC7171425F78DAD001D89BE /* ContentView.swift in Sources */,
 				FBC7171225F78DAD001D89BE /* Teste_Observable_Observed_PublishedApp.swift in Sources */,
+				FBC7174125F78F88001D89BE /* AddTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
